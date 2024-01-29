@@ -1,0 +1,23 @@
+{
+  "name": "xakepehok/array-to-uuid-helper",
+  "description": "This library can convert array to uuid string",
+  "keywords": ["array", "uuid", "helper"],
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Timur Kasumov aka XAKEPEHOK",
+      "email": "icq-475204@ya.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "XAKEPEHOK\\ArrayToUuidHelper\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.2.0",
+    "ext-json": "*"
+  }
+}
